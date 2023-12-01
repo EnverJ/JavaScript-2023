@@ -122,6 +122,14 @@ Bitwise Operators
 ~       NOT inverts all the bits
 ＜＜    Left Shift shifts left and fills empty spaces with 0
 ＞＞    Right Shift shifts right 
-
 Bitwise operators treat arguments as 32-bit numbers and work on the level of their binary representation
 */
+
+console.log("******** Bitwise Operator*******");
+
+let A = 1;
+let B = 2;
+console.log(A & B); // 0
+console.log(A | B); // 3
+console.log(3 ^ 5); // 6
+console.log(~5); // -6
