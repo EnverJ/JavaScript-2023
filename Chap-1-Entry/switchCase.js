@@ -9,3 +9,4 @@ switch (a) {
   default:
     console.log("enter a valid value");
 }
+

@@ -7,6 +7,7 @@ class Animal {
   }
 }
 
+
 let animal = new Animal("Dogs");
 animal.eats(); // Dogs eats food.
 
