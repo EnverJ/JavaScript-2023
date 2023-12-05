@@ -1,0 +1,25 @@
+Commands For TS setup:
+
+1. Create a Folder, and open it in VSCode
+2. npm i typescript -g
+3. tsc –init
+4. npm i nodemon
+5. Add main.ts in that folder
+6. Add start script in package.json: “start”: “nodemon main.js”
+7. npx tsc main –w (For recompiling .ts -> .js everytime on Save)
+8. npm start (“start”: “nodemon main.js”; For running .js file everytime on Save)
+
+Ragav:
+Create a Typescript folder:
+
+npm init -y
+npm install typescript -- install typescript only for this folder
+npx tsc -v
+
+then create a test folder under node_modules folder. note: I created this note file
+
+create basics.js file and run it using npx basics.js.
+basics.js file will be generated and then run
+node basics.js
+
+add export to the top of basics.ts
