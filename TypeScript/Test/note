@@ -23,3 +23,5 @@ basics.js file will be generated and then run
 node basics.js
 
 add export to the top of basics.ts
+
+npx tsc basics --watch -- this will start compilations
